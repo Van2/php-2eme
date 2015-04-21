@@ -1,16 +1,16 @@
-<!doctype html>
-<meta charset= "utf-8" >
-<html>
-	<head>
-		<title>
-			Jeu des chiffres
-		</title>
-		<?php 
+<?php 
 			
 			$nbr_utilisateur = $_POST['utilisateur'];
 			$nbr_ordi = $_POST['devine'];
 			
-		?>
+?>
+<!doctype html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>
+			Jeu des chiffres
+		</title>
 	</head>
 	<body>
 		<h1>resultat</h1>
