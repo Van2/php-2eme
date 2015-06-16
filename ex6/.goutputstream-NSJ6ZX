@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset= "utf-8" >
+<html>
+	<head>
+		<title>
+            Ex 4 chap 1
+			
+		</title>
+		<?php 
+			dbh$ = new mysqli('localhost','cpnv','cpnv1234','ch04');
+            if($dbh->connect_errno) {
+                die("Problème de connexion({$dbh-connect_errno}))"; 
+                $dbh->connect_errno
+                
+            
+		?>
+	</head>
+	<body>
+
+	</body>
+</html> 
